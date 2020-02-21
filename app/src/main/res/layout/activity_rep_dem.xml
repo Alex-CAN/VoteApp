@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".repDemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:text="Democrats"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/khloe"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showCandidate"
+                android:src="@drawable/khloe" />
+
+            <TextView
+                android:id="@+id/khloeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Amy Klobuchar"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showCandidate"
+                android:src="@drawable/gab"
+                android:id="@+id/gab"/>
+
+
+            <TextView
+                android:id="@+id/gabText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Tulsi Gabbard"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bloomberg"
+                android:onClick="showCandidate"
+                android:id="@+id/bloomberg"
+                />
+            <TextView
+                android:id="@+id/bloomtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Michael R. Bloomberg"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showCandidate"
+                android:src="@drawable/warren"
+                android:id="@+id/warren"/>
+
+            <TextView
+                android:id="@+id/warrenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Elizabeth Warren"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/sanders"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/sanders" />
+
+            <TextView
+                android:id="@+id/berntext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Bernie Sanders"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showCandidate"
+                android:src="@drawable/biden"
+                android:id="@+id/biden"/>
+
+
+            <TextView
+                android:id="@+id/bidenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Joseph R. Biden Jr."
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showCandidate"
+                android:src="@drawable/butti"
+                android:id="@+id/butti"/>
+
+            <TextView
+                android:id="@+id/buttimtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Pete Buttigieg"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#475DE7"
+            android:onClick="showCandidate"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showCandidate"
+                android:id="@+id/styer"
+                android:src="@drawable/styer"/>
+
+            <TextView
+                android:id="@+id/styerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Tom Steyer"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
